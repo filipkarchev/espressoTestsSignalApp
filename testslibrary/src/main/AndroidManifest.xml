@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testslibrary" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <instrumentation
+        android:name="com.example.testslibrary.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for org.thoughtcrime.securesms"
+        android:targetPackage="org.thoughtcrime.securesms"
+        >
+    </instrumentation>
+</manifest>
+
+
